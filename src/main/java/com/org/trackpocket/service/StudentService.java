@@ -2,19 +2,16 @@ package com.org.trackpocket.service;
 
 import com.org.trackpocket.database.StudentRepo;
 import com.org.trackpocket.model.Student;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@RequiredArgsConstructor
 public class StudentService {
     private final StudentRepo studentRepository;
-
-    @Autowired
-    public StudentService(StudentRepo studentRepository) {
-        this.studentRepository = studentRepository;
-    }
 
     // Fetch all students
     public List<Student> getAllStudents() {

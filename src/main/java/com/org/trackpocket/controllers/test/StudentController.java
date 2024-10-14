@@ -2,21 +2,19 @@ package com.org.trackpocket.controllers.test;
 
 import com.org.trackpocket.model.Student;
 import com.org.trackpocket.service.StudentService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequiredArgsConstructor
 @RequestMapping("/students")
 public class StudentController {
     private final StudentService studentService;
-
-    @Autowired
-    public StudentController(StudentService studentService) {
-        this.studentService = studentService;
-    }
 
     @GetMapping("")
     public List<Student> getAllStudents() {
