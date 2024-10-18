@@ -1,5 +1,6 @@
 package com.org.trackpocket.model;
 
+import com.org.trackpocket.database_model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,7 +1,7 @@
 package com.org.trackpocket.service;
 
 import com.org.trackpocket.repo.StudentRepo;
-import com.org.trackpocket.model.Student;
+import com.org.trackpocket.database_model.Student;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;

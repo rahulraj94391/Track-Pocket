@@ -1,4 +1,4 @@
-package com.org.trackpocket.model;
+package com.org.trackpocket.database_model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

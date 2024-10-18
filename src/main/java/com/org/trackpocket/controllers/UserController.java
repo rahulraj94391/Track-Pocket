@@ -1,6 +1,6 @@
 package com.org.trackpocket.controllers;
 
-import com.org.trackpocket.model.User;
+import com.org.trackpocket.database_model.User;
 import com.org.trackpocket.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
