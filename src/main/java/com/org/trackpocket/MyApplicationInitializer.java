@@ -1,5 +1,6 @@
 package com.org.trackpocket;
 
+import com.org.trackpocket.Configuration.AppConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MyApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

@@ -1,4 +1,4 @@
-package com.org.trackpocket.database;
+package com.org.trackpocket.repo;
 
 import com.org.trackpocket.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;

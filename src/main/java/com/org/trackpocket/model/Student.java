@@ -32,4 +32,13 @@ public class Student {
 
     @Column(name = "address")
     private String address;
+
+    public Student(String firstName, String lastName, String phoneNumber, String email, String address) {
+        this.id = null;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.address = address;
+    }
 }
